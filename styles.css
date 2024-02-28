@@ -48,8 +48,10 @@ h1{
     width: 150px;
     border-radius: 10px;
     background-color: rgba(28, 109, 231, 0.782);
-    color: white;
+    color: rgb(253, 250, 250);
     border: 1px solid black;
+    font-size: 20px;
+    font-weight: 500;
 }
 .boardContainer button{
     width: 100px;
@@ -57,7 +59,7 @@ h1{
     border: 1px solid #000;
     display: inline-block;
     font-size: 30px;
-    color: #fff;
+    color: #962626;
 }
 .boardContainer{
     margin: 0 auto;
