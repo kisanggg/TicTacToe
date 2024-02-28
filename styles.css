@@ -1,0 +1,133 @@
+h1{
+    font-size:xx-large;
+}
+.main{
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    margin:2px;
+    width: 900px;
+    height: 500px;
+    margin-left: 240px;
+}
+.players{
+    display: flex;
+    justify-content:center;
+    margin: 30px;
+    font-size: x-large;
+}
+.player1{
+    padding: 2px;
+    margin: 5px;
+}
+.player2{
+    padding: 2px;
+    margin: 5px;
+}
+.btn1{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+.btn2{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+.btn3{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+.btn4{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+.btn5{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+.btn6{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+.btn7{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+.btn8{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+.btn9{
+    width: 70px;
+    height: 60px;
+    margin:1px;
+    box-shadow: inset;
+    border: 5px solid black;
+    border-radius: 9px;
+}
+button{
+    margin: 4px;
+    height: 40px;
+    width: 100px;
+}
+.row1{
+    border:1px solid black;
+    width: 230px;
+    padding: 4px;
+    margin-left:332px ;
+    border-radius: 12px;
+    background-color: black;
+}
+.row2{
+    border:1px solid black;
+    width: 230px;
+    padding: 4px;
+    margin-left:332px ;
+    border-radius: 12px;
+    background-color: black;
+}
+.row3{
+    border:1px solid black;
+    width: 230px;
+    padding: 4px;
+    margin-left:332px ;
+    border-radius: 12px;
+    background-color: black;
+}
+.reset{
+    margin-top: 30px;
+}
+.btn{
+    border-radius: 10px;
+}
