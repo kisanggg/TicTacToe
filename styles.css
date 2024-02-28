@@ -8,9 +8,9 @@ h1{
     padding: 3px;
     margin:2px;
     width: 800px;
-    height: 500px;
+    height: 580px;
     margin-left: 290px;
-    background-color: black;
+    background-color: rgb(23, 22, 22);
 }
 .players{
     display: flex;
@@ -29,102 +29,31 @@ h1{
     color:aliceblue;
     margin-left: 10px;
 }
-.btn1{
-    width: 70px;
-    height: 60px;
-    margin:1px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-.btn2{
-    width: 70px;
-    height: 60px;
-    margin:1px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-.btn3{
-    width: 70px;
-    height: 60px;
-    margin:1px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-.btn4{
-    width: 70px;
-    height: 60px;
-    margin:1px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-.btn5{
-    width: 70px;
-    height: 60px;
-    margin:1px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-.btn6{
-    width: 70px;
-    height: 60px;
-    margin:1px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-.btn7{
-    width: 69px;
-    height: 60px;
-    margin:1px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-.btn8{
-    width: 69px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-.btn9{
-    width: 69px;
-    height: 60px;
-    margin:1px;
-    border: 1px solid black;
-    border-radius: 9px;
-}
-button{
-    margin: 4px;
-    height: 40px;
-    width: 100px;
-}
-.row1{
-    
-    width: 230px;
-    padding: 1px;
-    margin-left:289px ;
-    border-radius: 12px;
-    background-color: black;
-}
-.row2{
-    
-    width: 230px;
-    padding: 1px;
-    margin-left:289px ;
-    border-radius: 12px;
-    background-color: black;
-}
-.row3{
-    width: 230px;
-    padding: 1px;
-    margin-left:290px ;
-    border-radius: 12px;
-    background-color: black;
-}
 .reset{
     margin-top: 30px;
 }
-.btn{
+.reset button{
+    margin: 4px;
+    height: 60px;
+    width: 150px;
     border-radius: 10px;
     background-color: rgba(28, 109, 231, 0.782);
     color: white;
     border: 1px solid black;
+}
+.boardContainer button{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+}
+.boardContainer{
+    margin: 0 auto;
+    max-width: 300px;    
+    display: grid;       
+    justify-items: center;
+    align-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
 }
