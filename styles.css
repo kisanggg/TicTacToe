@@ -68,4 +68,11 @@ h1{
     justify-items: center;
     align-content: space-around;
     grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+.line{
+    background-color: #181717;
+    width: 280px;
+    height: 2px;
+    position: absolute;
 }
